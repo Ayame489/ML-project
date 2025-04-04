@@ -52,6 +52,11 @@ class ModelTrainer:
             }
 
 
+
+
+
+
+            # Model parameter Tuning part :
             params={
                 "Decision Tree": {
                     'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
@@ -89,6 +94,10 @@ class ModelTrainer:
                 }
             }   
             
+
+
+
+
 
 
             # Evaluate each model : 
