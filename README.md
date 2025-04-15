@@ -1,5 +1,5 @@
 
-# Student Math Score Prediction using Machine Learning :
+# Student Math Score Prediction using ML :
 
 This project aims to predict students' math scores based on various features such as their study hours and previous test performance. The goal is to use machine learning models to develop a predictive model that can help educators and students identify potential performance issues and tailor learning strategies accordingly. The problem we are addressing is the lack of personalized prediction tools for student performance in the educational sector.
 
@@ -55,6 +55,56 @@ The dataset used for this analysis is the **Student performance prediction** dat
 
 ## Project files structure :
 
+
+```bash
+ML-project/
+|
+├── artifacts/
+│   └── model.pkl 
+|   └── preprocessor.pkl 
+|   └── raw.csv 
+|   └── test.csv
+|   └── train.csv
+|
+├── catboost_info/
+│   └── <files>
+|
+├── notebook/
+│   └── data/ 
+|        └── <file.csv>
+|   └── EDA_student_performance.ipynb
+|   └── Model_trainer.ipynb 
+|
+|
+├── src/
+│   └── components/
+|         └── __init__.py
+|         └── data_ingestion.py
+|         └── data_transformation.py
+|         └── model_trainer.py
+|   └── pipeline/ 
+|         └── __init__.py
+|         └── predict_pipeline.py
+|         └── train_pipeline.py
+|   └── __init__.py 
+|   └── exception.py
+|   └── logger.py
+|   └── utils.py
+| 
+├── templates/
+│   └── home.html
+|   └── index.html 
+|
+├── .gitignore
+|
+├── README.md
+|
+├── app.py
+|
+├── requirements.txt
+|
+└── setup.py
+```
 
 
 ---
@@ -116,55 +166,6 @@ The table below summarizes the results:
 
 We chose **Linear Regression** for this project because of its simplicity, ease of interpretation, and effectiveness in modeling linear relationships. It provides a clear, quantitative understanding of how individual features influence the predicted math scores. Linear Regression also serves as a strong baseline, making it easier to compare with more complex models. Its relatively low computational cost and transparency make it ideal for educational settings, where clear decision-making is essential.
 
-ML-project/
-|
-├── artifacts/
-│   └── model.pkl 
-|   └── preprocessor.pkl 
-|   └── raw.csv 
-|   └── test.csv
-|   └── train.csv
-|
-├── catboost_info/
-│   └── <files>
-|
-├── notebook/
-│   └── data/ 
-|        └── <file.csv>
-|   └── EDA_student_performance.ipynb
-|   └── Model_trainer.ipynb 
-|
-|
-├── src/
-│   └── components/
-|         └── __init__.py
-|         └── data_ingestion.py
-|         └── data_transformation.py
-|         └── model_trainer.py
-|   └── pipeline/ 
-|         └── __init__.py
-|         └── predict_pipeline.py
-|         └── train_pipeline.py
-|   └── __init__.py 
-|   └── exception.py
-|   └── logger.py
-|   └── utils.py
-| 
-├── templates/
-│   └── home.html
-|   └── index.html 
-|
-├── .gitignore
-|
-├── README.md
-|
-├── app.py
-|
-├── requirements.txt
-|
-└── setup.py
-
-
 ---
 
 ## Installation :
@@ -181,8 +182,9 @@ Once the app is running, the user can:
     
 3. Use this prediction as a potential indicator of future performance.
 
-
-
+<p align="center">
+  <img src="images/web_app.png" />
+</p>
 
 
 
