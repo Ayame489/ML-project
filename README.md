@@ -11,12 +11,12 @@ This project aims to predict students' math scores based on various features suc
 
 ## Table of Contents :
 
-- [Project Overview](#project-overview)
-- [Dataset Description](#dataset-description)
-- [Project Files Structure](#project-files-structure)
+- [Project Overview](#project-overview-)
+- [Dataset Description](#dataset-description-)
+- [Project Files Structure](#project-files-structure-)
 - [Machine Learning Models Used](#machine-learning-models-used)
-- [Model Evaluation](#model-evaluation)
-- [Installation](#installation)
+- [Model Evaluation](#model-evaluation-)
+- [Installation](#installation-)
 - [Usage](#usage-)
 
 
