@@ -9,12 +9,15 @@ This project aims to predict students' math scores based on various features suc
 
 ---
 
-## Table of content :
+## Table of Contents :
 
-- 
--
--
--
+- [Project Overview](#project-overview)
+- [Dataset Description](#dataset-description)
+- [Project Files Structure](#project-files-structure)
+- [Machine Learning Models Used](#machine-learning-models-used)
+- [Model Evaluation](#model-evaluation)
+- [Installation](#installation)
+- [Usage](#usage-)
 
 
 ---
@@ -35,21 +38,21 @@ We will build a **machine learning model that predicts students math scores** ba
 
 The dataset used for this analysis is the **Student performance prediction** dataset from Kaggle. The dataset contains the following columns :
 
-• Gender: The gender of the student (male/female)
+• **Gender** : The gender of the student (male/female)
 
-• Race/ethnicity: The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)
+• **Race/ethnicity** : The student's racial or ethnic background (Asian, African-American, Hispanic, etc.)
 
-• Parental level of education: The highest level of education attained by the student's parent(s) or guardian(s)
+• **Parental level of education** : The highest level of education attained by the student's parent(s) or guardian(s)
 
-• Lunch: Whether the student receives free or reduced-price lunch (yes/no)
+• **Lunch** : Whether the student receives free or reduced-price lunch (yes/no)
 
-• Test preparation course: Whether the student completed a test preparation course (yes/no)
+• **Test preparation course** : Whether the student completed a test preparation course (yes/no)
 
-• Math score: The student's score on a standardized mathematics test
+• **Math score** : The student's score on a standardized mathematics test
 
-• Reading score: The student's score on a standardized reading test
+• **Reading score** : The student's score on a standardized reading test
 
-• Writing score: The student's score on a standardized writing test
+• **Writing score**: The student's score on a standardized writing test
 
 ---
 
@@ -107,20 +110,6 @@ ML-project/
 ```
 
 
----
-
-## Machine learning models :
-
-We have used the following models to predict students math scores :
-
-- **Linear Regression**: This model predicts the continuous target value (math score) based on a linear relationship between the features and the target.
-    
-- **Random Forest Regressor**: An ensemble learning method that constructs multiple decision trees and outputs the average prediction of the individual trees.
-    
-- **Support Vector Machine (SVM)**: A regression model that uses hyperplanes to predict the output by finding the optimal boundary that separates data points.
-    
-- **K-Nearest Neighbors (KNN)**: A non-parametric model that makes predictions based on the average value of the 'k' nearest data points in the feature space.
-    
 ---
 
 ##  Machine Learning Models Used
